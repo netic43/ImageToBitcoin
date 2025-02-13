@@ -1,0 +1,5 @@
+ bip39
+ requests
+ bitcoinlib
+ selenium
+ webdriver_manager
