@@ -99,7 +99,7 @@ driver = create_driver()
 for i in range(37):
     address = image_to_address(f"Images/cat{i}.jpg")
     balance = extract_text_from_span(f"{url}{address}", class_name, driver, 15)
-    if address == "bc1q57euh23y3qs2f9d5mtwpax5lqecfvrdkqce82a":
+    if address == "bc1qwzrryqr3ja8w7hnja2spmkgfdcgvqwp5swz4af4ngsjecfz0w0pqud7k38":
         print(f"\n\nFound! : cat{i}.jpg\n\n")
     print(f"Bitcoin Address: {address} \nBalance: {balance}")
 driver.quit()
